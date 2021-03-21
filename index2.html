@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Title of my page</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="CSS/style2.css">
+</head>
+<body>
+	<header>
+		<h1>Styling links and lists</h1>
+	</header>
+	<hr>
+	<section id="Column">
+		<h2>Anchor links</h2>
+		<ul>
+			<li>Links can take on all of the usual styles as well as <span id="Mark">text-decoration</span></li>
+			<li>Links by default are inline, so if you wants to chage the <span id="Mark">width</span>, you have to use <span id="Mark">display:block;</span> or <span id="Mark">display:inline-block;</span>.</li>
+		</ul>
+	</section>
+	<section id="Column">
+		<h2>Buttons</h2>
+		<ul>
+			<li>Many designers try to make their links look like buttons.</li>
+			<li>We want to avoid that, we want to be semantic.</li>
+			<li>If you want a button use <span id="Mark">button</span> HTML tag.</li>
+		</ul>
+		<button>Click me!</button>
+	</section>
+	<section id="Column">
+		<h2>States</h2>
+		<ul>
+			<li>Some links are blue, some are purple, etc. Why?</li>
+			<ul id="LowerAlphaList">
+				<li>a:link - normal link</li>
+				<li>a:visited - visited</li>
+				<li>a:hover - hover activity, not on touch screens.</li>
+				<li>a:focus - TAB jumping</li>
+				<li>a:active - clicked</li>
+			</ul>
+		</ul>
+	</section>
+	<br id="Clean">
+	<hr>
+	<section id="Column2">
+		<h2>Precedence of rules</h2>
+		<ul id="NoBulletsList">
+			<li>a:hover MUST come after a:link and a:visited</li>
+			<li>a:active MUST come after a:hover</li>
+		</ul>
+	</section>
+	<section id="Column2">
+		<h2>Styled links</h2>
+		<a class="button" href=#one>Introduction to Web Design</a>
+		<a class="button" href=#two>University of Michigan</a>
+		<a class="button" href=#three>Ken State University</a>
+	</section>
+	<section id="Column2">
+		<h2>Styling lists</h2>
+		<ul>
+			<li>Number of properties beyond font, margin, etc.</li>
+			<ul id="RomanList">
+				<li><span id="Mark">list-style-type:</span></li>
+				<li><span id="Mark">list-dtyle-image:</span></li>
+				<li><span id="Mark">list-style-position:</span></li>
+				<li><span id="Mark">list-style:</span></li>
+			</ul>
+			<li><span id="Mark">List-style-type</span></li>
+			<ul>
+				<li>Ordered lists</li>
+				<ul>
+					<li><span id="Mark">lower-roman, upper-roman, decimanl, decimal-leading-zero, upper-alpha, hebrew, armentian, ...</span></li>
+				</ul>
+			</ul>
+			<li><span id="Mark">List-style-image</span></li>
+			<ul>
+				<li id="ListStyleImage">Use a custom image instead of traditional marker</li>
+			</ul>
+		</ul>
+	</section>
+	<hr>
+	<section id="Review">
+		<h2>Review</h2>
+		<ul id="NoBulletsList">
+			<li>At this point you have learned how to write rules for the tags.</li>
+			<li>Embrace the many tools that are aviliable to help you design your site.</li>
+		</ul>
+	</section>
+</body>
+</html>
